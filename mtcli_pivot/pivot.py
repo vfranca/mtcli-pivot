@@ -11,7 +11,7 @@ logger = setup_logger("pivot")
 @click.command()
 @click.version_option(package_name="mtcli-pivot")
 @click.option("--symbol", "-s", default="WINV25", help="Símbolo do ativo.")
-def pivot(symbol):
+def pp(symbol):
     """Exibe níveis de ponto pivô com suporte e resistência para o ativo"""
 
     conectar()
@@ -47,4 +47,4 @@ def pivot(symbol):
 
 
 if __name__ == "__main__":
-    pivot()
+    pp()

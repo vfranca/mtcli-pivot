@@ -1,28 +1,11 @@
-\# mtcli-pp
-
-&nbsp; 
-
-Plugin mtcli que adiciona o comando pp para calcular o ponto pivô
-
-&nbsp; 
-
+# mtcli-pivot
+  
+Plugin mtcli que adiciona o comando pp para calcular o pivot point.  
+  
 ---
-
-&nbsp; 
-
-\## Instalação
-
-&nbsp; 
-
+  
+## Instalação
+  
+```cmd
+pip install mtcli-pivot
 ```
-
-git clone git@github.com:vfranca/mtcli-pp.git
-
-cd mtcli-pp
-
-pip install .
-
-```
-
-
-
